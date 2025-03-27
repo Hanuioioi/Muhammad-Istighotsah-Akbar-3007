@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Angka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Belajar Angka untuk Anak</h1>
+    </header>
+    <section id="numbers">
+        <h2>Kenali Angka</h2>
+        <div class="number-container">
+            <button class="number" onclick="sayNumber(1)">1</button>
+            <button class="number" onclick="sayNumber(2)">2</button>
+            <button class="number" onclick="sayNumber(3)">3</button>
+            <button class="number" onclick="sayNumber(4)">4</button>
+            <button class="number" onclick="sayNumber(5)">5</button>
+        </div>
+    </section>
+    <section id="quiz">
+        <h2>Quiz Matematika</h2>
+        <p>Berapakah hasil dari <span id="num1"></span> + <span id="num2"></span> ?</p>
+        <input type="number" id="answer">
+        <button onclick="checkAnswer()">Cek Jawaban</button>
+        <p id="feedback"></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Belajar Angka</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
